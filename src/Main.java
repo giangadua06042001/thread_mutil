@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
       Thread thread=new Thread_mutil();
-
         // NEW
         System.out.println("Trạng thái chủ đề: " + thread.getState());
 
@@ -24,5 +23,7 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+
     }
 }

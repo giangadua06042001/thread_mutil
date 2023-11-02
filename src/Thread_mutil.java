@@ -11,6 +11,7 @@ public class Thread_mutil extends Thread {
             // BLOCKED
             synchronized (this) {
                 Thread.sleep(500);
+                System.out.println("Trang thai da bi khoa");
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
